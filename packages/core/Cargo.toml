@@ -1,0 +1,11 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+godot = "0.2.0"
+celestial_bodies = { path = "../celestial_bodies" }
+
+[lib]
+crate-type = ["cdylib"]

@@ -1,0 +1,14 @@
+{
+  "rust-analyzer.check.command": "build",
+  "godotTools.lsp.serverPort": 6008,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "*.mutable": {
+        "italic": true,
+        "bold": true,
+        "underline": false,
+      },
+    }
+  },
+}
